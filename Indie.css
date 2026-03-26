@@ -1,0 +1,99 @@
+h1 {
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+    color: azure;
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Pixelify Sans';font-size: 22px;
+    background-image: url(goro_background.jpg);
+}
+
+
+.main-wrapper {
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+  }
+ 
+  .main, .main-wrapper {
+    width: 800px;
+  }
+ 
+  .main, .largemain {
+    border: 5px solid darkred;
+    border-radius: 5px;
+    border-style: outset;
+    background-color: white;
+    min-height: 500px;
+    height: 70vh;
+  }
+
+
+  .largemain {
+    min-height: 800px;
+    width: 800px; /* idk fix this */
+  }
+ 
+  .side {
+    width: 220px;
+    min-height: 500px;
+    position: absolute;
+    top: 60px;
+    right: -325px;
+  }
+ 
+  .leftside {
+    width: 220px;
+    min-height: 500px;
+    position: absolute;
+    top: 60px;
+    left: -300px;
+  }
+ 
+  .main, .side, .leftside, .largemain {
+    text-align: center;
+    padding: 10px;
+    border: 5px solid red;
+    background-color: white;
+    border-radius: 10px;
+    border-style: outset;
+  }
+
+
+  .pleft {
+    text-align: left;
+  }
+
+
+  header {
+    text-align: center;
+    color: white;
+    background-color: silver;
+    opacity: 70%;
+  }
+
+
+  h1{
+    opacity: 100%;
+    background-color: white;
+  }
+ 
+  .horizontal-line {
+    border-top: 3px solid orangered; /* Creates the line */
+    width: 100%;                 /* Controls the length of the line */
+    margin: 0px;          /* Centers the line and adds spacing */
+}
+
+
+
+
+/*this is not at all what I want. I just need a placeholder. The layout is completely different.
+It's two big squares in the center, a list on the top left, another list on the right either top
+or bottom, and pictures but idk what yet */
+
+
+/*the next things to really do is add gifs and transparent images and web-stickers*/
